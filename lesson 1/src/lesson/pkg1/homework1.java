@@ -35,7 +35,7 @@ public class homework1 {
         }
         // exercise 2
         System.out.println("exercise 2:  ");
-        float a = 1, b = -4, c = 3, x1 = 0, x2 = 0, x0 = 0;
+        float a = 0, b = -4, c = 3, x1 = 0, x2 = 0, x0 = 0;
         if (a == 0) {
             if (b == 0) {
 
