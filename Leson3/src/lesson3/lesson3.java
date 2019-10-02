@@ -11,7 +11,7 @@ import sun.security.util.Length;
  *
  * @author LaptopAZ.vn
  */
-public class Leson3 {
+public class lesson3 {
 
     /**
      * @param args the command line arguments
