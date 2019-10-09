@@ -12,7 +12,7 @@ package lesson4;
 public class lesson4_bai3 {
 
     public static void main(String[] args) {
-        String[] a = {"a", "e", "d", "f", "c"};
+        String a[] = {"a", "e", "d", "f", "c"};
         for (int i = 0; i < a.length; i++) {
             System.out.println(dasapxep(a)[i]);
 

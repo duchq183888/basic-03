@@ -10,21 +10,24 @@ package lesson4;
  * @author LaptopAZ.vn
  */
 public class leson4_bai5 {
+
     public static void main(String[] args) {
-        String a="hellllllllllo";
-        String b="hellllllllalo";
+        String a = "hellllllllllo";
+        String b = "hellllllllalo";
         System.out.println(check(a, b));
-        
+
     }
-    static int check(String a,String b){
-        if(a.compareTo(b)>0){
+
+    static int check(String a, String b) {
+        if (a.compareTo(b) > 0) {
             return 1;
-        }
-        else{
-            if(a.compareTo(b)==0){
+        } else {
+            if (a.compareTo(b) == 0) {
                 return 0;
-            }else return -1;
+            } else {
+                return -1;
+            }
         }
     }
-    
+
 }
