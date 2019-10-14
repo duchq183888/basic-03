@@ -13,17 +13,14 @@ public class lesson5_bai1 {
 
     public static void main(String[] args) {
         String s = "qwertyuiooqưe";
+        String m="!@#$%^&*()";
         System.out.println(containSpecial(s));
     }
 
     static boolean containSpecial(String s) {
         char[] c = s.toCharArray();
         for (int i = 0; i < s.length(); i++) {
-            if (c[i] == '!' || c[i] == '@' || c[i] == '#' || c[i] == '%' || c[i] == '^' || c[i] == '&' || c[i] == '*' || c[i] == '('||c[i]==')') {
-
-                return false;
-            }
-
+            if(c[i]==m.)
         }
         return true;
 
