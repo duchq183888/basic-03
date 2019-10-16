@@ -12,7 +12,7 @@ package lesson4;
 public class lesson4_bai4 {
 
     public static void main(String[] args) {
-        int a[] = {0, 1, 2, 2, 2, 4};
+        int a[] = {1, 1, 1, 1};
         System.out.println(checksx(a));
 
     }
@@ -20,11 +20,13 @@ public class lesson4_bai4 {
     static int checksx(int[] a) {
         int d = 0;
         for (int i = 0; i < a.length - 1; i++) {
-            if (a[i] > a[i + 1]) {
-                d = d + 1;
+            for (int j = 0; j < a.length; j++) {
+                if (a[i] > a[j]) {
+                    d = d + 1;
+                }
             }
         }
-        if (d == 0) {
+        if (d == 0 ) {
             return 1;
         }
         for (int i = 0; i < a.length - 1; i++) {
@@ -33,6 +35,6 @@ public class lesson4_bai4 {
             }
         }
         return -1;
-    }
 
+    }
 }
